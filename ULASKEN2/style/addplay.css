@@ -1,0 +1,37 @@
+*{
+    font-family: 'Patua One', cursive;
+    font-size: 15px;
+}
+#info{
+    width: 50%;
+    text-align:center;
+    border:3px solid #222222;
+    border-radius: 20px;
+}
+.row{
+    text-align: left;
+}
+#form .row{
+    margin-top: 10px;
+}
+#form input{
+    border:none;
+    background-color: lightgrey;
+    color: gray;
+    padding: 10px;
+    border-radius: 10px ;
+}
+#add{
+    margin-top: 10px;
+    color: white;
+    background-color: lightgreen;
+}
+#form select{
+    width:100%;
+    background-color: lightgrey;
+    color: gray;
+}
+#userprofile{    
+    box-shadow: 0 0 20px;
+    padding: 60px;
+}

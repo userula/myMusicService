@@ -1,0 +1,25 @@
+*{
+    font-family: 'Patua One', cursive;
+}
+.artist{
+    margin: 20px;
+}
+.artist .container{
+    box-shadow: 0 0 20px;
+    padding: 50px;
+    background-color: white;
+}
+.song1{
+    display: flex;
+}
+#recentrelease a{
+    opacity: 0.8;
+    transition: .5s;
+}
+#recentrelease a:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#recentrelease a{
+    color: #222222;
+}

@@ -1,0 +1,55 @@
+*{
+    font-family: 'Patua One', cursive;
+}
+.list{
+    margin: 20px;
+}
+.list .container{
+    box-shadow: 0 0 20px;
+    padding: 50px;
+    background-color: white;
+}
+.song1{
+    display: flex;
+}
+#recentrelease a{
+    opacity: 0.8;
+    transition: .5s;
+}
+#recentrelease a:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+#recentrelease a{
+    color: #222222;
+}
+.list .col-md-3{
+    opacity: .5;
+    transition: .5s;
+    transform: scale(.9);
+    position: relative;
+}
+.col-md-3 img{
+    border-radius: 50%;
+}
+.row{
+    margin-top: 10px;
+}
+.list .col-md-3:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.list .centered{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 0 5px black;
+}
+.col-md-3:hover .centered{
+    opacity: 1;
+    transform: scale(3);
+}

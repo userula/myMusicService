@@ -1,0 +1,26 @@
+.foot{
+    padding: 20px;
+    width: 100%;  
+    margin-top: 10vh;  
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+.col-lg-12 i{
+    margin:10px 10px 20px 10px;
+    transition: 1s;
+    color: white;
+}
+.footer-copyright{
+    margin: 10px;
+}
+.col-lg-12 i:hover{
+    transform: scale(1.2);
+}
+.footer-copyright a{
+    font-size: 15px;
+    color: white;
+}
+.footer-copyright a:hover{
+    color: white;
+}
